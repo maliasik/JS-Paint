@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Js İle Paint</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="tools">
+            <div class="tool">
+                <span class="title">Renk</span><input type="color" id="color" />
+                <span class="title">Boyut</span><input type="number" id="size" max="100" min="1" value="3" />
+                <span class="title hidden">Temizle</span><button id="clear">Temizle</button>
+                <span class="title hidden">Kaydet</span><button id="save">Kaydet</button>
+            </div>
+        </div>
+        <canvas id="canvas-area"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
